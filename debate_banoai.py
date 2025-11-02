@@ -23,7 +23,7 @@ llm = HuggingFaceEndpoint(
     repo_id="meta-llama/Meta-Llama-3-8B-Instruct",
     task="text-generation",
     temperature=0.7,
-    huggingfacehub_api_token="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"
+    huggingfacehub_api_token="api"
 )
 
 llm1 = HuggingFaceEndpoint(
